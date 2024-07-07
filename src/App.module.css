@@ -1,0 +1,61 @@
+#container{
+background-color: rgb(0, 0, 0);
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 500px;
+height: 90vh;
+}
+
+#display{
+background-color: rgb(0, 0, 0);
+margin: 20px;
+display: flex;
+flex-direction: column;
+height: 900px;
+justify-content: space-between;
+padding: 40px;
+background: none;
+}
+
+.butt{
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#result{
+    align-self: end;
+    margin-right: 40px;
+    font-size: 70px;
+}
+
+#zero{
+    width: 170px;
+    border-radius: 50px;
+}
+
+#nums{
+margin: 20px;
+margin: 20px;
+display: flex;
+background-color: rgb(0, 0, 0);
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+}
+#whit{
+    color: black;
+background-color: rgb(255, 255, 255);
+}
+#org{
+background-color: orange;
+}
